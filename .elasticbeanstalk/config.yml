@@ -1,0 +1,5 @@
+branch-defaults:
+  default:
+    environment: squadstats-env
+global:
+  profile: eb-cli

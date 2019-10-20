@@ -1,5 +1,27 @@
 branch-defaults:
   default:
     environment: squadstats-env
+  dev:
+    environment: squadstats-dev
+  master:
+    environment: squadstats-prod
+environment-defaults:
+  squadstats-env:
+    branch: master
+    repository: origin
+  squadstats-prod:
+    branch: master
+    repository: origin
 global:
+  application_name: squadstats
+  default_ec2_keyname: null
+  default_platform: arn:aws:elasticbeanstalk:us-west-2::platform/PHP 7.3 running on
+    64bit Amazon Linux/2.9.0
+  default_region: us-west-2
+  include_git_submodules: true
+  instance_profile: null
+  platform_name: null
+  platform_version: null
   profile: eb-cli
+  sc: git
+  workspace_type: Application

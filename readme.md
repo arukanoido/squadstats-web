@@ -1,4 +1,4 @@
 ## Squadstats Website
 
-http://squadstats-prod.isbiwcthgu.us-west-2.elasticbeanstalk.com/
+http://squadstats-prod.pmppkmjmux.us-west-2.elasticbeanstalk.com/
 

@@ -10,8 +10,8 @@ environment-defaults:
     branch: master
     repository: origin
   squadstats-prod:
-    branch: master
-    repository: origin
+    branch: null
+    repository: null
 global:
   application_name: squadstats
   default_ec2_keyname: null

@@ -47,7 +47,7 @@ return [
             'driver' => 'mysql',
             'url' => env('DATABASE_URL'),
             'host' => env('RDS_HOSTNAME', env('DB_HOST', '127.0.0.1')),
-            'port' => env('RDS_PORT', env('DB_PORT', '3306')),
+            'port' => env('DB_PORT', '3306'),
             'database' => env('RDS_DB_NAME', env('DB_DATABASE', 'forge')),
             'username' => env('RDS_USERNAME', env('DB_USERNAME', 'forge')),
             'password' => env('RDS_PASSWORD', env('DB_PASSWORD', '')),
